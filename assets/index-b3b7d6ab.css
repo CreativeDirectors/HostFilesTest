@@ -1,0 +1,95 @@
+html,
+body,
+#root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: rgb(17, 17, 11); */
+}
+
+/* @font-face {
+    font-family: SpaceGrotesk;
+    src: url(./Space_Grotesk/static/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url(./Heebo/static/Heebo-Regular.ttf);
+} */
+
+
+
+canvas {
+    width: 100%;
+    height: 100vh;
+}
+
+.label>div {
+
+
+    font-family: Helvetica, Arial;
+    position: absolute;
+    background: #00000088;
+    color: black;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 30px;
+    user-select: none;
+}
+
+#t1 {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    opacity: 0.5;
+    background: #ff0000;
+    z-index: 1;
+
+}
+
+
+.annotation {
+    color: rgb(246, 241, 231);
+    background-color: rgba(7, 7, 72, 0.363);
+    font-family: SpaceGrotesk;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 800;
+
+
+}
+
+.legalsDivClass {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 70px;
+}
+
+.legalsText {
+    overflow: hidden;
+    font-size: 0.3rem;
+    color: rgb(246, 241, 231);
+    font-weight: 400;
+}
+
+.ParaHeader {
+    font-size: 0.6rem;
+    color: rgb(246, 241, 231);
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+
+/* 
+.annotation:hover {
+    background-color: #fff;
+    color: darkblue;
+} */
